@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @SpringBootApplication
 @EntityScan("com.biz.countries")
 public class CountriesApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(CountriesApplication.class, args);
     }
