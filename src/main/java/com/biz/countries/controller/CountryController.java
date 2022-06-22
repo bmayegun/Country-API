@@ -1,9 +1,6 @@
 package com.biz.countries.controller;
 
-import com.biz.countries.exception.DuplicateResourceException;
-import com.biz.countries.exception.ResourceNotFoundException;
 import com.biz.countries.model.Country;
-import com.biz.countries.repository.CountryRepository;
 import com.biz.countries.response.SuccessResponse;
 import com.biz.countries.service.CountryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +22,7 @@ public class CountryController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Object> getCountries(@PathVariable long id){
+    public ResponseEntity<Object> getCountry(@PathVariable long id){
         return new ResponseEntity<>(new SuccessResponse(countryService.getCountryById(id)), HttpStatus.OK);
     }
 

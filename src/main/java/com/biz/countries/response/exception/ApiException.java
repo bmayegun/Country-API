@@ -1,4 +1,4 @@
-package com.biz.countries.exception;
+package com.biz.countries.response.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

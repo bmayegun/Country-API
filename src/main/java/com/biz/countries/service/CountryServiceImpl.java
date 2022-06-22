@@ -1,14 +1,13 @@
 package com.biz.countries.service;
 
-import com.biz.countries.exception.DuplicateResourceException;
-import com.biz.countries.exception.ResourceNotFoundException;
+import com.biz.countries.response.exception.DuplicateResourceException;
+import com.biz.countries.response.exception.ResourceNotFoundException;
 import com.biz.countries.model.Country;
 import com.biz.countries.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

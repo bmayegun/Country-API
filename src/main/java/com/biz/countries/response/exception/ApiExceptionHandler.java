@@ -1,4 +1,4 @@
-package com.biz.countries.exception;
+package com.biz.countries.response.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

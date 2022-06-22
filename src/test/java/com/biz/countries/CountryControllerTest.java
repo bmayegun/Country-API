@@ -1,7 +1,7 @@
 package com.biz.countries;
 
-import com.biz.countries.exception.DuplicateResourceException;
-import com.biz.countries.exception.ResourceNotFoundException;
+import com.biz.countries.response.exception.DuplicateResourceException;
+import com.biz.countries.response.exception.ResourceNotFoundException;
 import com.biz.countries.model.Country;
 import com.biz.countries.service.CountryService;
 import org.junit.jupiter.api.*;
